@@ -1,0 +1,25 @@
+{
+  "name": "faztnotes",
+  "version": "1.0.0",
+  "description": "An educational project This is a basic App to manage simple Notes on the web using Javascript Technologies like Nodejs, Mongodb, and other related technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoBaldan/FaztNotes.git"
+  },
+  "keywords": [
+    "loggin",
+    "Mongodb",
+    "Notes",
+    "app"
+  ],
+  "author": "Guillermo Baldán López - Fazt",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/GuillermoBaldan/FaztNotes/issues"
+  },
+  "homepage": "https://github.com/GuillermoBaldan/FaztNotes#readme"
+}
