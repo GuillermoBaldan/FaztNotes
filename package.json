@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/GuillermoBaldan/FaztNotes/issues"
   },
-  "homepage": "https://github.com/GuillermoBaldan/FaztNotes#readme"
+  "homepage": "https://github.com/GuillermoBaldan/FaztNotes#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.9",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
 }
