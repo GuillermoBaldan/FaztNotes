@@ -7,6 +7,7 @@ const session = require("express-session");
 
 //Initializations
 const app = express();
+require("./database");
 
 //Setting
 app.set("port", process.env.PORT || 3000);
@@ -41,8 +42,12 @@ app.use(require("./routes/notes"));
 app.use(require("./routes/users"));
 
 //Static Files
+app.use(express.static(path.join(__dirname, "public")));
 
 //Server is listenning
 app.listen(app.get("port"), () => {
   console.log("Server on port", app.get("port"));
 });
+
+/* Código final
+https://github.com/FaztTech/nodejs-notes-app */

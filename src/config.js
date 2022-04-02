@@ -1,4 +1,4 @@
-// Read environment variables
+/* // Read environment variables
 const config = require("dotenv");
 config();
 
@@ -12,3 +12,4 @@ const configurations = {
 };
 
 export default configurations;
+ */
